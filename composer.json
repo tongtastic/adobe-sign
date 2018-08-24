@@ -1,0 +1,30 @@
+{
+  "name": "tongtastic/adobe-sign-php",
+  "description": "Adobe Sign PHP SDK",
+  "license": "GPL-3.0+",
+  "require": {
+    "php": ">=5.6.0",
+    "league/oauth2-client": "^1.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.4",
+    "mockery/mockery": "^0.9.5",
+    "mikey179/vfsStream": "^1.6"
+  },
+  "authors": [
+    {
+      "name": "Tom Tong",
+      "email": "tomtong81@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "tongtastic\\AdobeSign\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "tongtastic\\AdobeSign\\Tests\\": "tests/"
+    }
+  }
+}
